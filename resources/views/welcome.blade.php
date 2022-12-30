@@ -27,8 +27,10 @@
             <x-form.textarea></x-form.textarea>
         </div>
         <x-form.button type='submit'>Light Submit</x-form.button>
-        <div>
-            <x-form.chip>New</x-form.chip>
+        <div class="flex gap-1 items-center">
+            <x-form.chip img="https://i.pravatar.cc/48?img=1">New</x-form.chip>
+            <x-form.chip>New 2</x-form.chip>
+            <x-form.chip>New 3 </x-form.chip>
         </div>
     </div>
     {{--  --}}
@@ -50,6 +52,11 @@
             <x-form.textarea></x-form.textarea>
         </div>
         <x-form.button type='submit'>Light Submit</x-form.button>
+        <div class="flex gap-1 items-center">
+            <x-form.chip img="https://i.pravatar.cc/48?img=1">New</x-form.chip>
+            <x-form.chip>New 2</x-form.chip>
+            <x-form.chip>New 3 </x-form.chip>
+        </div>
     </div>
 </body>
 </html>
