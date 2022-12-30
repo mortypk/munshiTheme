@@ -32,6 +32,7 @@
             <x-form.chip>New 2</x-form.chip>
             <x-form.chip>New 3 </x-form.chip>
         </div>
+        <x-form.spin></x-form.spin>
     </div>
     {{--  --}}
     <div class="m-2 p-2 bg-blue-50 flex flex-col gap-y-1">
@@ -57,6 +58,7 @@
             <x-form.chip>New 2</x-form.chip>
             <x-form.chip>New 3 </x-form.chip>
         </div>
+        <x-form.spin></x-form.spin>
     </div>
 </body>
 </html>
