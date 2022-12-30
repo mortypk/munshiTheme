@@ -1,0 +1,1 @@
+<option {{ $attributes->class([""])->merge() }}>{{ $slot }}</option>
