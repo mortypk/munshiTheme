@@ -7,7 +7,7 @@ if(isset($img)){
 @endphp
 <div x-data {{ $attributes->class(["
 flex w-fit cursor-pointer rounded-full 
-dark:bg-gray-200 dark:text-gray-600 dark:hover:text-blue-700
+dark:bg-gray-200 dark:text-gray-500 dark:hover:text-slate-900
 bg-slate-700 text-slate-300 hover:text-slate-50
 "])->merge() }}>
     {!! $img !!}
