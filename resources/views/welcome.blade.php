@@ -9,7 +9,7 @@
     <title>Laravel Theme</title>
 </head>
 <body>
-    <div class="dark m-2 p-2 bg-slate-800 text-gray-100 flex flex-col gap-y-1">
+    {{-- <div class="dark m-2 p-2 bg-slate-800 text-gray-100 flex flex-col gap-y-1">
         <x-form.label>Name</x-form.label>
         <x-form.input>Light Submit</x-form.input>
         <div class="flex items-center gap-1">
@@ -36,9 +36,27 @@
             <x-form.chip>New 3 </x-form.chip>
         </div>
         <x-form.spin></x-form.spin>
-    </div>
+    </div> --}}
     {{--  --}}
     <div class="m-2 p-2 bg-blue-50 flex flex-col gap-y-1">
+        <x-form.group id="group_inp1" >
+            <x-form.group.label>Group label</x-form.group.label>
+            <x-form.group.input></x-form.group.input>
+            <x-form.group.button>Add</x-form.group.button>
+        </x-form.group>
+        <x-form.group id="group_inp2">
+            <x-form.group.radio>Radio label</x-form.group.radio>
+        </x-form.group>
+        <x-form.group id="group_inp3">
+            <x-form.group.checkbox>checkbox label</x-form.group.checkbox>
+        </x-form.group>
+        <x-form.group id="group_inp4">
+            <x-form.group.label>Select label</x-form.group.label>
+            <x-form.group.select>
+                <x-form.group.option>One</x-form.group.option>
+                <x-form.group.option>Two</x-form.group.option>
+            </x-form.group.select>
+        </x-form.group>
         <x-form.label>Name</x-form.label>
         <x-form.input>Light Submit</x-form.input>
         <div class="flex items-center gap-1">
