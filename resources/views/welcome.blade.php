@@ -38,14 +38,27 @@
         <x-form.spin></x-form.spin>
     </div> --}}
     {{--  --}}
-    <div class="m-2 p-2 bg-blue-50 flex flex-col gap-y-1">
+    <x-form method="POST" class="m-2 p-2 bg-blue-50">
+        <x-form.group id="group_inp0" >
+            <x-form.group.input type="file"></x-form.group.input>
+            <x-form.group.button>Upload</x-form.group.button>
+        </x-form.group>
+        <x-form.group id="group_inp10" >
+            <x-form.group.button>Upload</x-form.group.button>
+            <x-form.group.textarea></x-form.group.textarea>
+        </x-form.group>
         <x-form.group id="group_inp1" >
             <x-form.group.label>Group label</x-form.group.label>
             <x-form.group.input></x-form.group.input>
             <x-form.group.button>Add</x-form.group.button>
         </x-form.group>
-        <x-form.group id="group_inp2">
-            <x-form.group.radio>Radio label</x-form.group.radio>
+        <x-form.group class="gap-1">
+            <x-form.group id="group_inp2">
+                <x-form.group.radio>Radio label</x-form.group.radio>
+            </x-form.group>
+            <x-form.group id="group_inp2">
+                <x-form.group.radio>Radio label</x-form.group.radio>
+            </x-form.group>
         </x-form.group>
         <x-form.group id="group_inp3">
             <x-form.group.checkbox>checkbox label</x-form.group.checkbox>
@@ -56,6 +69,7 @@
                 <x-form.group.option>One</x-form.group.option>
                 <x-form.group.option>Two</x-form.group.option>
             </x-form.group.select>
+            <x-form.group.spin></x-form.group.spin>
         </x-form.group>
         <x-form.label>Name</x-form.label>
         <x-form.input>Light Submit</x-form.input>
@@ -83,6 +97,6 @@
             <x-form.chip>New 3 </x-form.chip>
         </div>
         <x-form.spin></x-form.spin>
-    </div>
+    </x-form>
 </body>
 </html>
