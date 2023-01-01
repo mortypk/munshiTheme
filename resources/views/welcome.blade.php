@@ -38,6 +38,75 @@
         <x-form.spin></x-form.spin>
     </div> --}}
     {{--  --}}
+    <div class="dark bg-slate-800 m-2 p-2 mx-auto flex flex-wrap gap-1">
+        <x-view.icontextlink href="?{{ 1 }}" class="w-96">
+            {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
+        </x-view.icontextlink>
+        <x-view.icontextlink href="?{{ 1 }}" class="w-96">
+            {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
+        </x-view.icontextlink>
+    </div>
+    <div class="m-2 p-2 flex flex-col gap-1 bg-blue-100">
+        <x-view.icontextlink href="?{{ 1 }}">
+            {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
+        </x-view.icontextlink>
+    </div>
+    <div class="dark bg-slate-800 m-2 p-2 flex flex-col gap-1">
+        <x-view.superbadge nvalue="70">Notification</x-view.superbadge>
+        <x-view.badge nvalue="10">Notification</x-view.badge>
+    </div>
+    <div class="m-2 p-2 flex flex-col gap-1 bg-blue-100">
+        <x-view.superbadge nvalue="70">Notification</x-view.superbadge>
+        <x-view.badge nvalue="10">Notification</x-view.badge>
+    </div>
+    <div class="dark bg-slate-800 m-2 p-2">
+        <x-view.alert type='info'><x-slot name="title">Alert</x-slot> Please beinform </x-view.alert>
+        <x-view.alert type='warning'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+        <x-view.alert type='danger'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+        <x-view.alert type='success'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+    </div>
+    <div class="m-2 p-2 bg-blue-100">
+        <x-view.alert type='info'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+        <x-view.alert type='warning'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+        <x-view.alert type='danger'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+        <x-view.alert type='success'><x-slot name="title">Alert</x-slot> Please beinform</x-view.alert>
+    </div>
+    <div class="m-2 p-2 ">
+        <x-view.toast type='info'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view<br>New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='danger'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='success'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='warning'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+    </div>
+    <div class="dark m-2 p-2 bg-slate-800">
+        <x-view.toast type='info'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='danger'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='success'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+        <x-view.toast type='warning'>
+            <x-slot name='title'>Toast Heading</x-slot>
+            New Toast Message view
+        </x-view.toast>
+    </div>
     <x-form method="POST" class="m-2 p-2 bg-blue-50">
         <x-form.group id="group_inp0" >
             <x-form.group.input type="file"></x-form.group.input>
