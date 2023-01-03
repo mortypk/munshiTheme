@@ -38,6 +38,46 @@
         <x-form.spin></x-form.spin>
     </div> --}}
     {{--  --}}
+    <div class="p-2">
+        <x-view.card>
+            <x-view.card.body>
+                <x-view.card.heading>Card heading</x-view.card.heading>
+                <x-view.card.bodytext>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
+                </x-view.card.bodytext>
+            </x-view.card.body>
+        </x-view.card>
+        <x-view.card>
+            <x-view.card.header>Card Header</x-view.card.header>
+            <x-view.card.body>
+                <x-view.card.bodytext>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
+                </x-view.card.bodytext>
+            </x-view.card.body>
+        </x-view.card>
+        <x-view.card>
+            <x-view.card.header>Card Header</x-view.card.header>
+            <x-view.card.body>
+                <x-view.card.heading>Card heading</x-view.card.heading>
+                <x-view.card.bodytext>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
+                </x-view.card.bodytext>
+            </x-view.card.body>
+            <x-view.card.footer>Card Footer</x-view.card.footer>
+        </x-view.card>
+    </div>
+    <div class="dark p-2">
+        <x-view.card>
+            <x-view.card.header>Card Header</x-view.card.header>
+            <x-view.card.body>
+                <x-view.card.heading>Card heading</x-view.card.heading>
+                <x-view.card.bodytext>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
+                </x-view.card.bodytext>
+            </x-view.card.body>
+            <x-view.card.footer>Card Footer</x-view.card.footer>
+        </x-view.card>
+    </div>
     <div class="dark bg-slate-800 m-2 p-2 mx-auto flex flex-wrap gap-1">
         <x-view.icontextlink href="?{{ 1 }}" class="w-96">
             {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
