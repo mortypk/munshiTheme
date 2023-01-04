@@ -9,6 +9,9 @@ return [
     |
     */
     'bgcolor' => 'blue',
+    'darkHeadTextColor' => 'text-blue-100',
+    'darkBodyTextColor' => "text-yellow-600",
+    'darkBgColor' => 'bg-gray-800',
     'infobgcolor' => 'blue',
     'successbgcolor' => 'green',
     'warningbgcolor' => 'yellow',

@@ -2,11 +2,14 @@
 module.exports = {
   darkMode: 'class',
   content: [
+    "./lang/en/theme.php",
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
