@@ -37,6 +37,16 @@
         </div>
         <x-form.spin></x-form.spin>
     </div> --}}
+    <div x-data="{ modal: 'none' }" class="p-2">
+        <x-view.modal>
+            <x-view.modal.header>This is title</x-view.modal.header>
+            <x-view.modal.body>This is body</x-view.modal.body>
+            <x-view.modal.footer>
+                <x-form.button>OK</x-form.button>
+                <x-form.button-submit>Submit</x-form.button-submit>
+            </x-view.modal.footer>
+        </x-view.modal>
+    </div>
     {{--  --}}
     <div class="p-2">
         <x-view.card>
