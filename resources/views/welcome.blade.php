@@ -37,8 +37,26 @@
         </div>
         <x-form.spin></x-form.spin>
     </div> --}}
-    <div x-data="{ modal: 'none' }" class="p-2">
-        <x-view.modal>
+    <div class="p-2">
+        <x-view.tabs>
+            <x-view.tab.links>
+                <x-view.tab.link tab="1">Home</x-view.tab.link>
+                <x-view.tab.link tab="2">About</x-view.tab.link>
+                <x-view.tab.link tab="3">Contact</x-view.tab.link>
+            </x-view.tab.links>
+            <x-view.tab.content tab="1">
+                Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
+            </x-view.tab.content>
+            <x-view.tab.content tab="2">
+                Tab 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
+            </x-view.tab.content>
+            <x-view.tab.content tab="3">
+                Tab 3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
+            </x-view.tab.content>
+        </x-view.tabs>
+    </div>
+    <div class="p-2">
+        <x-view.modal modalID="newModal">
             <x-view.modal.header>This is title</x-view.modal.header>
             <x-view.modal.body>This is body</x-view.modal.body>
             <x-view.modal.footer>
@@ -47,6 +65,7 @@
             </x-view.modal.footer>
         </x-view.modal>
     </div>
+    <x-form.button x-data="" x-on:click="$dispatch('modal','newModal')">Open Modal</x-form.button>
     {{--  --}}
     <div class="p-2">
         <x-view.card>
