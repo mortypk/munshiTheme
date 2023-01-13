@@ -37,7 +37,13 @@
         </div>
         <x-form.spin></x-form.spin>
     </div> --}}
-    <div class="p-2">
+
+    <x-nav.bar>
+        <x-nav.link>Home</x-nav.link>
+        <x-nav.link>About</x-nav.link>
+        <x-nav.link>Contact</x-nav.link>
+    </x-nav.bar>
+    <div class="p-2 bg-slate-800">
         <x-view.tabs>
             <x-view.tab.links>
                 <x-view.tab.link tab="1">Home</x-view.tab.link>
@@ -45,6 +51,9 @@
                 <x-view.tab.link tab="3">Contact</x-view.tab.link>
             </x-view.tab.links>
             <x-view.tab.content tab="1">
+                Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
+                Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
+                Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
                 Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
             </x-view.tab.content>
             <x-view.tab.content tab="2">
@@ -177,64 +186,66 @@
         </x-view.toast>
     </div>
     <x-form method="POST" class="m-2 p-2 bg-blue-50">
-        <x-form.group id="group_inp0" >
-            <x-form.group.input type="file"></x-form.group.input>
-            <x-form.group.button>Upload</x-form.group.button>
-        </x-form.group>
-        <x-form.group id="group_inp10" >
-            <x-form.group.button>Upload</x-form.group.button>
-            <x-form.group.textarea></x-form.group.textarea>
-        </x-form.group>
-        <x-form.group id="group_inp1" >
-            <x-form.group.label>Group label</x-form.group.label>
-            <x-form.group.input></x-form.group.input>
-            <x-form.group.button>Add</x-form.group.button>
-        </x-form.group>
-        <x-form.group class="gap-1">
-            <x-form.group id="group_inp2">
-                <x-form.group.radio>Radio label</x-form.group.radio>
+        <x-layout.flex col>
+            <x-form.group id="group_inp0" >
+                <x-form.group.input type="file"></x-form.group.input>
+                <x-form.group.button>Upload</x-form.group.button>
             </x-form.group>
-            <x-form.group id="group_inp2">
-                <x-form.group.radio>Radio label</x-form.group.radio>
+            <x-form.group id="group_inp10" >
+                <x-form.group.button>Upload</x-form.group.button>
+                <x-form.group.textarea></x-form.group.textarea>
             </x-form.group>
-        </x-form.group>
-        <x-form.group id="group_inp3">
-            <x-form.group.checkbox>checkbox label</x-form.group.checkbox>
-        </x-form.group>
-        <x-form.group id="group_inp4">
-            <x-form.group.label>Select label</x-form.group.label>
-            <x-form.group.select>
-                <x-form.group.option>One</x-form.group.option>
-                <x-form.group.option>Two</x-form.group.option>
-            </x-form.group.select>
-            <x-form.group.spin></x-form.group.spin>
-        </x-form.group>
-        <x-form.label>Name</x-form.label>
-        <x-form.input>Light Submit</x-form.input>
-        <div class="flex items-center gap-1">
-            <x-form.radio name="gender" /> Male
-            <x-form.radio name="gender" /> Female
-        </div>
-        <x-form.select>
-            <x-form.option value="1">Select List</x-form.option>
-            <x-form.option value="1" >Select List</x-form.option>
-        </x-form.select>
-        <div class="flex items-center gap-1">
-            <x-form.checkbox></x-form.checkbox> Subscribe
-        </div>
-        <div>
-            <x-form.textarea></x-form.textarea>
-        </div>
-        <div class="flex gap-1 items-center">
-            <x-form.button-cancel>Cancel</x-form.button>
-            <x-form.button-submit >Light Submit</x-form.button>
-        </div>
-        <div class="flex gap-1 items-center">
-            <x-form.chip img="https://i.pravatar.cc/48?img=1">New</x-form.chip>
-            <x-form.chip>New 2</x-form.chip>
-            <x-form.chip>New 3 </x-form.chip>
-        </div>
-        <x-form.spin></x-form.spin>
+            <x-form.group id="group_inp1" >
+                <x-form.group.label>Group label</x-form.group.label>
+                <x-form.group.input></x-form.group.input>
+                <x-form.group.button>Add</x-form.group.button>
+            </x-form.group>
+            <x-form.group class="gap-1">
+                <x-form.group id="group_inp2">
+                    <x-form.group.radio>Radio label</x-form.group.radio>
+                </x-form.group>
+                <x-form.group id="group_inp2">
+                    <x-form.group.radio>Radio label</x-form.group.radio>
+                </x-form.group>
+            </x-form.group>
+            <x-form.group id="group_inp3">
+                <x-form.group.checkbox>checkbox label</x-form.group.checkbox>
+            </x-form.group>
+            <x-form.group id="group_inp4">
+                <x-form.group.label>Select label</x-form.group.label>
+                <x-form.group.select>
+                    <x-form.group.option>One</x-form.group.option>
+                    <x-form.group.option>Two</x-form.group.option>
+                </x-form.group.select>
+                <x-form.group.spin></x-form.group.spin>
+            </x-form.group>
+            <x-form.label>Name</x-form.label>
+            <x-form.input>Light Submit</x-form.input>
+            <div class="flex items-center gap-1">
+                <x-form.radio name="gender" /> Male
+                <x-form.radio name="gender" /> Female
+            </div>
+            <x-form.select>
+                <x-form.option value="1">Select List</x-form.option>
+                <x-form.option value="1" >Select List</x-form.option>
+            </x-form.select>
+            <div class="flex items-center gap-1">
+                <x-form.checkbox></x-form.checkbox> Subscribe
+            </div>
+            <div>
+                <x-form.textarea></x-form.textarea>
+            </div>
+            <div class="flex gap-1 items-center">
+                <x-form.button-cancel>Cancel</x-form.button>
+                <x-form.button-submit >Light Submit</x-form.button>
+            </div>
+            <div class="flex gap-1 items-center">
+                <x-form.chip img="https://i.pravatar.cc/48?img=1">New</x-form.chip>
+                <x-form.chip>New 2</x-form.chip>
+                <x-form.chip>New 3 </x-form.chip>
+            </div>
+            <x-form.spin></x-form.spin>
+        </x-layout.flex>
     </x-form>
 </body>
 </html>

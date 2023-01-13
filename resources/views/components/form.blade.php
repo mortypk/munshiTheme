@@ -1,4 +1,4 @@
-<form  {{ $attributes->class(["flex flex-col gap-y-1"])->merge() }}>
+<form  {{ $attributes->class([""])->merge() }}>
     @csrf
     {{ $slot }}
 </form>
