@@ -11,10 +11,10 @@ $bg="
 ";
 @endphp
 <div {{ $attributes->class(["flex justify-center space-x-1"])->merge() }}>
-    <x-form.button bgcolor="{{ $bgcolor }}" class="inline-flex items-center pl-2 pr-1 py-2 text-sm font-medium text-center">
+    <x-theme.form.button bgcolor="{{ $bgcolor }}" class="inline-flex items-center pl-2 pr-1 py-2 text-sm font-medium text-center">
         {{ $slot }}
         <span class="bg-{{ $badgecolor }}-700 text-{{ $badgecolor }}-100 text-xs font-semibold mx-1 px-1 py-0.5 rounded">
             {{ $nvalue }}
         </span>
-    </x-form.button>
+    </x-theme.form.button>
 </div>

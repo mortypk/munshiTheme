@@ -54,166 +54,166 @@
     <div class="p-2 bg-slate-800">
         <x-theme.tabs>
             <x-theme.tab.links>
-                <x-theme.tab.link tab="1">Home</x-theme.view.tab.link>
-                <x-theme.tab.link tab="2">About</x-theme.view.tab.link>
-                <x-theme.tab.link tab="3">Contact</x-theme.view.tab.link>
-            </x-theme.view.tab.links>
+                <x-theme.tab.link tab="1">Home</x-theme.tab.link>
+                <x-theme.tab.link tab="2">About</x-theme.tab.link>
+                <x-theme.tab.link tab="3">Contact</x-theme.tab.link>
+            </x-theme.tab.links>
             <x-theme.tab.content tab="1">
                 Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
                 Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
                 Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
                 Tab 1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
-            </x-theme.view.tab.content>
+            </x-theme.tab.content>
             <x-theme.tab.content tab="2">
                 Tab 2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
-            </x-theme.view.tab.content>
+            </x-theme.tab.content>
             <x-theme.tab.content tab="3">
                 Tab 3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore accusamus velit fugit delectus eum nostrum eaque similique harum itaque? Quaerat porro vitae voluptatem ipsam quia quae reiciendis mollitia ullam sequi.
-            </x-theme.view.tab.content>
-        </x-theme.view.tabs>
+            </x-theme.tab.content>
+        </x-theme.tabs>
     </div>
     <div class="p-2">
         <x-theme.modal modalID="newModal">
-            <x-theme.modal.header>This is title</x-theme.view.modal.header>
-            <x-theme.modal.body>This is body</x-theme.view.modal.body>
+            <x-theme.modal.header>This is title</x-theme.modal.header>
+            <x-theme.modal.body>This is body</x-theme.modal.body>
             <x-theme.modal.footer>
                 <x-theme.form.button>OK</x-theme.form.button>
                 <x-theme.form.button-submit>Submit</x-theme.form.button-submit>
-            </x-theme.view.modal.footer>
-        </x-theme.view.modal>
+            </x-theme.modal.footer>
+        </x-theme.modal>
     </div>
     <x-theme.form.button x-data="" x-on:click="$dispatch('modal','newModal')">Open Modal</x-theme.form.button>
     {{--  --}}
     <div class="p-2">
         <x-theme.card>
             <x-theme.card.body>
-                <x-theme.card.heading>Card heading</x-theme.view.card.heading>
+                <x-theme.card.heading>Card heading</x-theme.card.heading>
                 <x-theme.card.bodytext>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
-                </x-theme.view.card.bodytext>
-            </x-theme.view.card.body>
-        </x-theme.view.card>
+                </x-theme.card.bodytext>
+            </x-theme.card.body>
+        </x-theme.card>
         <x-theme.card>
-            <x-theme.card.header>Card Header</x-theme.view.card.header>
+            <x-theme.card.header>Card Header</x-theme.card.header>
             <x-theme.card.body>
                 <x-theme.card.bodytext>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
-                </x-theme.view.card.bodytext>
-            </x-theme.view.card.body>
-        </x-theme.view.card>
+                </x-theme.card.bodytext>
+            </x-theme.card.body>
+        </x-theme.card>
         <x-theme.card>
-            <x-theme.card.header>Card Header</x-theme.view.card.header>
+            <x-theme.card.header>Card Header</x-theme.card.header>
             <x-theme.card.body>
-                <x-theme.card.heading>Card heading</x-theme.view.card.heading>
+                <x-theme.card.heading>Card heading</x-theme.card.heading>
                 <x-theme.card.bodytext>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
-                </x-theme.view.card.bodytext>
-            </x-theme.view.card.body>
-            <x-theme.card.footer>Card Footer</x-theme.view.card.footer>
-        </x-theme.view.card>
+                </x-theme.card.bodytext>
+            </x-theme.card.body>
+            <x-theme.card.footer>Card Footer</x-theme.card.footer>
+        </x-theme.card>
     </div>
     <div class="dark p-2">
         <x-theme.card>
-            <x-theme.card.header>Card with Dark Class Header</x-theme.view.card.header>
+            <x-theme.card.header>Card with Dark Class Header</x-theme.card.header>
             <x-theme.card.body>
-                <x-theme.card.heading>Card heading</x-theme.view.card.heading>
+                <x-theme.card.heading>Card heading</x-theme.card.heading>
                 <x-theme.card.bodytext>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi voluptatibus, repudiandae, reiciendis nisi dolores nihil explicabo voluptatum dolore suscipit iusto voluptas minima mollitia assumenda possimus debitis ullam fuga repellendus.
-                </x-theme.view.card.bodytext>
-            </x-theme.view.card.body>
-            <x-theme.card.footer>Card Footer</x-theme.view.card.footer>
-        </x-theme.view.card>
+                </x-theme.card.bodytext>
+            </x-theme.card.body>
+            <x-theme.card.footer>Card Footer</x-theme.card.footer>
+        </x-theme.card>
     </div>
 
     <div class="dark bg-slate-800 m-2 p-2 mx-auto flex flex-wrap gap-1">
         <x-theme.icon.textlink href="?{{ 1 }}" class="w-96">
             {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
-        </x-theme.view.icon.textlink>
+        </x-theme.icon.textlink>
         <x-theme.icon.textlink href="?{{ 1 }}" class="w-96">
             {{ 2 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
-        </x-theme.view.icon.textlink>
+        </x-theme.icon.textlink>
     </div>
     <div class="dark">
         <x-theme.icons>
             @for ($i = 0; $i < 5; $i++)
             <x-theme.icon.img img="https://icons.iconarchive.com/icons/aha-soft/free-game/64/Bank-icon.png">
                 Bank Note
-            </x-theme.view.icon.img>
+            </x-theme.icon.img>
             @endfor
-        </x-theme.view.icons>
+        </x-theme.icons>
     </div>
     <div >
         <x-theme.icons>
             @for ($i = 10; $i < 15; $i++)
             <x-theme.icon.img img="https://i.pravatar.cc/48?img={{ $i }}">
                 Google Avatar
-            </x-theme.view.icon.img>
+            </x-theme.icon.img>
             @endfor
-        </x-theme.view.icons>
+        </x-theme.icons>
     </div>
     <div class="m-2 p-2 flex flex-col gap-1 bg-blue-100">
         <x-theme.icon.img  img="https://i.pravatar.cc/48?img=1">
             Google
-        </x-theme.view.icon.img>
+        </x-theme.icon.img>
         <x-theme.icon.textlink href="?{{ 1 }}">
             {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
-        </x-theme.view.icon.textlink>
+        </x-theme.icon.textlink>
     </div>
     <div class="dark bg-slate-800 m-2 p-2 flex flex-col gap-1">
-        <x-theme.superbadge nvalue="70">Notification</x-theme.view.superbadge>
-        <x-theme.badge nvalue="10">Notification</x-theme.view.badge>
+        <x-theme.superbadge nvalue="70">Notification</x-theme.superbadge>
+        <x-theme.badge nvalue="10">Notification</x-theme.badge>
     </div>
     <div class="m-2 p-2 flex flex-col gap-1 bg-blue-100">
-        <x-theme.superbadge nvalue="70">Notification</x-theme.view.superbadge>
-        <x-theme.badge nvalue="10">Notification</x-theme.view.badge>
+        <x-theme.superbadge nvalue="70">Notification</x-theme.superbadge>
+        <x-theme.badge nvalue="10">Notification</x-theme.badge>
     </div>
     <div class="dark bg-slate-800 m-2 p-2">
-        <x-theme.alert type='info'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform </x-theme.view.alert>
-        <x-theme.alert type='warning'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
-        <x-theme.alert type='danger'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
-        <x-theme.alert type='success'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
+        <x-theme.alert type='info'><x-slot name="title">Alert</x-slot> Please beinform </x-theme.alert>
+        <x-theme.alert type='warning'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
+        <x-theme.alert type='danger'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
+        <x-theme.alert type='success'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
     </div>
     <div class="m-2 p-2 bg-blue-100">
-        <x-theme.alert type='info'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
-        <x-theme.alert type='warning'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
-        <x-theme.alert type='danger'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
-        <x-theme.alert type='success'><x-theme.slot name="title">Alert</x-theme.slot> Please beinform</x-theme.view.alert>
+        <x-theme.alert type='info'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
+        <x-theme.alert type='warning'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
+        <x-theme.alert type='danger'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
+        <x-theme.alert type='success'><x-slot name="title">Alert</x-slot> Please beinform</x-theme.alert>
     </div>
     <div class="m-2 p-2 ">
         <x-theme.toast type='info'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view<br>New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='danger'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='success'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='warning'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
     </div>
     <div class="dark m-2 p-2 bg-slate-800">
         <x-theme.toast type='info'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='danger'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='success'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
         <x-theme.toast type='warning'>
-            <x-theme.slot name='title'>Toast Heading</x-theme.slot>
+            <x-slot name='title'>Toast Heading</x-slot>
             New Toast Message view
-        </x-theme.view.toast>
+        </x-theme.toast>
     </div>
     <x-theme.form method="POST" class="m-2 p-2 bg-blue-50">
         <x-theme.layout.flex col>
