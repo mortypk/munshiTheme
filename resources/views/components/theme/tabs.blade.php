@@ -7,7 +7,7 @@
 @endphp
 <div x-data="{ openTab: '{{ $show }}' }"
 {{ $attributes->class(["shadow-lg rounded-b-lg bg-white p-1"])->merge() }}>
-    <div class="p-1">
+    <div class="p-1 ">
         {{ $slot }}
     </div>
 </div>
