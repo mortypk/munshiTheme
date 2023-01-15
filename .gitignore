@@ -17,3 +17,11 @@ yarn-error.log
 /.idea
 /.vscode
 /app
+/database
+/bootstrap
+/config
+/routes
+/storage
+/tests
+/resources/css
+/resources/js
