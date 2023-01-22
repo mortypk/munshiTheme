@@ -1,4 +1,4 @@
 <!-- Body -->
-<div class="bg-white p-4 dark:bg-gray-800">
+<div  {{ $attributes->class(["bg-white dark:bg-gray-800"])->merge() }} >
     {{ $slot }}       
 </div>

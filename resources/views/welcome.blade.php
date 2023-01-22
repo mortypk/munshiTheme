@@ -51,6 +51,33 @@
         <div class="flex-grow"></div>
         <x-theme.nav.link>Login</x-theme.nav.link>
     </x-theme.nav.bar>
+    <x-theme.card>
+        <x-theme.card.body>
+                <x-theme.table>
+                    <x-theme.table.thead>
+                        <th>#</th>
+                        <th>Item Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th></th>
+                    </x-theme.table.thead>
+                    <x-theme.table.tbody>
+                        @for ($i = 0; $i < 10; $i++)
+                        <x-theme.table.tr>
+                            <td class="p-1">{{ $i }}</td>
+                            <td class="p-1">Morty</td>
+                            <td class="p-1">M Younus pk</td>
+                            <td class="p-1">100.0</td>
+                            <td class="p-1">
+                                <x-theme.form.button class="py-0">Show</x-theme.form.button>
+                                <x-theme.form.button-cancel class="py-0">Delete</x-theme.form.button-cancel>
+                            </td>
+                        </x-theme.table.tr>
+                        @endfor
+                    </x-theme.table.tbody>
+                </x-theme.table>
+        </x-theme.card.body>
+    </x-theme.card>
     <div class="p-2 bg-slate-800">
         <x-theme.tabs>
             <x-theme.tab.links>
