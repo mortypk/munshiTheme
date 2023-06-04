@@ -149,12 +149,30 @@
                 </x-theme.card.bodytext>
             </x-theme.card.body>
             <x-theme.card.footer>Card Footer</x-theme.card.footer>
-        </x-theme.card>
+        </x-theme.card>`
     </div>
 
     <div class="dark bg-slate-800 m-2 p-2 mx-auto flex flex-wrap gap-1">
+        <x-theme.gallery>
+            @for ($i =0; $i < 5; $i++)
+            <x-theme.gallery.img  src='https://picsum.photos/seed/{{ $i }}/200/300'>
+                Nice view
+            </x-theme.gallery.img>
+            @endfor
+        </x-theme.gallery>
+    </div>
+    <div class="m-2 p-2 mx-auto flex flex-wrap gap-1">
+        <x-theme.gallery>
+            @for ($i =0; $i < 5; $i++)
+            <x-theme.gallery.img  src='https://picsum.photos/seed/{{ $i }}/200/300'>
+                Nice view
+            </x-theme.gallery.img>
+            @endfor
+        </x-theme.gallery>
+    </div>
+    <div class="dark bg-slate-800 m-2 p-2 mx-auto flex flex-wrap gap-1">
         <x-theme.icon.textlink href="?{{ 1 }}" class="w-96">
-            {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
+            Long {{ 1 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
         </x-theme.icon.textlink>
         <x-theme.icon.textlink href="?{{ 1 }}" class="w-96">
             {{ 2 }} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minus, beatae numquam commodi explicabo architecto veniam, odio quo, aliquid labore cum est! Perferendis inventore quas saepe autem, ipsam sunt ex?
